@@ -53,7 +53,7 @@ def packetcapture(interface_name):
 if len(sys.argv) ==  2:
 	interface_name = str(sys.argv[1])
 else:
-	interface_name = "mon0"
+	interface_name = "wlan0"
     # 인터페이스 명 지정
 
 
